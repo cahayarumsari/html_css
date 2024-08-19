@@ -1,0 +1,62 @@
+/* style.css */
+body {
+    font-family: 'Slabo 27px', serif;
+    background: url('../img/pattern.jpg') repeat;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Pastikan header berada di atas elemen lain */
+  }
+  
+  #logo {
+    margin-right: 20px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-left: auto; /* Agar menu navigasi tetap berada di kanan */
+  }
+  
+  nav ul a {
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+  }
+  
+  section {
+    background-color: white;
+    width: 70%;
+    margin: 80px auto 20px auto; /* Berikan margin atas untuk menghindari header yang tetap */
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #article-list article {
+    border-bottom: 1px solid #333;
+    padding: 10px 0;
+  }
+  
+  #article-list article h3 {
+    margin: 0;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+  }
